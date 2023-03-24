@@ -93,18 +93,10 @@ svg {
   min-width: 30px;
 }
 
-.fact {
-  margin: 80px auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 50px 0;
-}
 
 .fact__legend {
   width: 100%;
-  ;
-
+  margin: 30px auto;
 }
 
 .fact__legend__item {
@@ -124,6 +116,7 @@ svg {
   border-radius: 10px;
   text-align: center;
   gap: 10px;
+  animation: showItem 1s alternate;
 }
 
 .fact__list__item {
@@ -132,7 +125,6 @@ svg {
   display: flex;
   align-items: center;
   gap: 10px;
-
 }
 
 .fact__list__item:nth-child(2) {
@@ -165,6 +157,24 @@ svg {
   font-weight: bold;
 }
 
+
+.fact--data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+
+}
+
+@keyframes showItem {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
 
 /* mobile */
 @media screen and (max-width: 450px) {
