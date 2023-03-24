@@ -16,15 +16,9 @@
   <div class="container">
     <header class="header">
       <h1 class="header__title">Casos de mortes por Covid</h1>
-      <p class="header__copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse explicabo delectus ab
-        nostrum repudiandae rerum
-        aut nesciunt fugit quis vero ut, corporis, dicta id omnis, facere facilis officia consequatur voluptatem.</p>
-      <p class="header__copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse explicabo delectus ab
-        nostrum repudiandae rerum
-        aut nesciunt fugit quis vero ut, corporis, dicta id omnis, facere facilis officia consequatur voluptatem.</p>
-      <p class="header__copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse explicabo delectus ab
-        nostrum repudiandae rerum
-        aut nesciunt fugit quis vero ut, corporis, dicta id omnis, facere facilis officia consequatur voluptatem.</p>
+      <p class="header__copy">No Brasil, a COVID-19 teve um impacto significativo, com altos números de casos e mortes. O país enfrentou desafios em relação à gestão da pandemia e à adesão da população às medidas de prevenção. Atualmente, o país tem uma taxa de vacinação crescente, mas ainda enfrenta desafios na contenção da disseminação do vírus.</p>
+      <p class="header__copy">No Canadá, a COVID-19 também teve um impacto significativo, mas em menor escala do que no Brasil. O país adotou medidas rigorosas de distanciamento social e implementou uma estratégia bem-sucedida de vacinação em massa, resultando em uma taxa de vacinação relativamente alta. No entanto, o Canadá ainda enfrenta desafios com o surgimento de novas variantes do vírus.</p>
+      <p class="header__copy">Na Austrália, a COVID-19 foi relativamente bem controlada, com um número relativamente baixo de casos e mortes em comparação com outros países. O país adotou medidas rigorosas de fronteira e quarentena para impedir a disseminação do vírus, bem como medidas de distanciamento social e rastreamento de contatos. A taxa de vacinação na Austrália é atualmente menor do que em outros países, mas está aumentando gradualmente.</p>
     </header>
     <main class="main">
       <section class="flags">
