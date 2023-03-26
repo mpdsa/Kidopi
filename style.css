@@ -154,7 +154,10 @@ svg {
 .fact__legend__item__copy--green,
 .fact__legend__item__copy--red,
 .fact__list__item__copy--green,
-.fact__list__item__copy--red {
+.fact__list__item__copy--red,
+.fact__total--info--red,
+.fact__total--info--green,
+.fact__report {
   font-family: var(--fonteSource);
   font-weight: 400;
 }
