@@ -1,8 +1,9 @@
 <?php
-// recebe o parametro da url
-$q = $_REQUEST["q"];
 
-if ($q === "") return;
+$q = $_REQUEST["q"];
+if ($q == "") {
+  echo '';
+}
 
 $curl = curl_init();
 
@@ -19,7 +20,25 @@ curl_setopt_array($curl, array(
 
 $response = curl_exec($curl);
 
-curl_close($curl);
+
+$conn = new mysqli('localhost', 'root', '30061993', 'Covid19');
+if ($conn->connect_error) {
+  echo 'não é possivel conectar';
+};
+
+$dataLocal = date('Y-m-d H:i:s');
+$sql = "INSERT INTO ultimas_consultas (pais, `data`) VALUES (?, ?)";
+
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("ss", $q, $dataLocal);
+$stmt->execute();
+
 
 echo $response;
+
+
+curl_close($curl);
+$stmt->close();
+$conn->close();
+
 ?>
